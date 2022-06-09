@@ -13,8 +13,12 @@ This is a script that keeps scraping the table from your order, and if we got so
 You just have to set a cronjob with this script, and in every execution, it will be checked if there's an update.   
 *No updates = no voices = no csv.*
 
-Ps: don't worry, a simple txt (last_number_of_lines.txt) will be created within the same folder, so we can check the old execution amount of lines against the current execution amount of lines. That's how we do this. If you delete this file, the execution will always consider we have an update.
- 
+# HOW DOES IT WORK? 
+ A simple txt (last_number_of_lines.txt) will be created within the same folder, so we can check the old execution amount of lines against the current execution amount of lines. That's how we do this. If you delete this file, the execution will always consider we have an update.
+
+ As simple as this.
+ Change the variable `numero_da_remessa` to your tracking number and execute the script. --to be continued
+
 
 
 
